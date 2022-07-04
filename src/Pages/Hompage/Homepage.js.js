@@ -1,14 +1,16 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './homepage.css'
 
 
-function App() {
+function Homepage() {
   return (
     <div className="Main">
       <div className="container" id="section1">
         <div className="row" id="home-img1">
           <div className="col-lg-6 .col-md-6 .col-sm-6 .col-xs-12">
-            <img src="https://blog.green-acres.com/wp-content/uploads/2018/09/shutterstock_230413204.jpg"
-                 alt="homeimg" />
+            <img src="https://static.saltinourhair.com/build/images/home/saltinourhair-header-menton-default.jpg"
+                 alt="home-img" />
           </div>
 
           <div className="col-lg-6 .col-md-6 .col-sm-6 .col-xs-12" id="icon1">
@@ -282,4 +284,4 @@ function App() {
   );
 }
 
-export default App;
+export default Homepage;
